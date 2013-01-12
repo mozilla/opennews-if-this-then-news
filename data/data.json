@@ -1,6 +1,60 @@
 [
     {
         "beat": "local",
+        "event": "hotspot",
+        "description": "Yelp activity for Menton has gone up 32% in the last month.",
+        "url": "http:\/\/www.yelp.com\/biz\/menton-boston",
+        "importance": 1,
+        "icon": "custom-icon-hotspot",
+        "timestamp": "2013-01-12T18:35:11-05:00"
+    },
+    {
+        "beat": "local",
+        "event": "hotspot",
+        "description": "OpenTable activity for Neptune Oyster has gone up 109% in the last month.",
+        "url": "http:\/\/www.yelp.com\/biz\/neptune-oyster-boston",
+        "importance": 2,
+        "icon": "custom-icon-hotspot",
+        "timestamp": "2013-01-12T24:57:29-05:00"
+    },
+    {
+        "beat": "local",
+        "event": "crime",
+        "description": "Auto theft in Boston has dropped 73% since 2010.",
+        "url": "http:\/\/www.cityofboston.gov\/police\/stats\/",
+        "importance": 1,
+        "icon": "custom-icon-crime",
+        "timestamp": "2013-01-12T21:47:15-05:00"
+    },
+    {
+        "beat": "local",
+        "event": "sports",
+        "description": "The Red Sox-Rays game is tied 3-3 in the top of the 9th.",
+        "url": "http:\/\/scores.espn.go.com\/nba\/boxscore?gameId=400278251",
+        "importance": 3,
+        "icon": "custom-icon-baseball",
+        "timestamp": "2013-01-12T22:02:45-05:00"
+    },
+    {
+        "beat": "government",
+        "event": "votes",
+        "description": "The Senate just passed S. 2239 (Veteran Skills to Jobs Act) by a narrow 52-48 margin",
+        "url": "http:\/\/www.govtrack.us\/congress\/bills\/112\/s2239",
+        "importance": 2,
+        "icon": "custom-icon-law",
+        "timestamp": "2013-01-12T21:14:08-05:00"
+    },
+    {
+        "beat": "government",
+        "event": "votes",
+        "description": "98 representatives just broke party ranks in the successful vote on H.R. 6649 (Naval Vessels Transfer Act of 2012).",
+        "url": "http:\/\/www.govtrack.us\/congress\/bills\/112\/hr6649",
+        "importance": 2,
+        "icon": "custom-icon-law",
+        "timestamp": "2013-01-12T22:45:47-05:00"
+    },
+    {
+        "beat": "local",
         "event": "weather",
         "description": "Boston's current temperature of 51&deg; F is higher than this day's previous record of 49&deg; F set on January 12, 1970.",
         "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
@@ -83,7 +137,7 @@
     {
         "beat": "local",
         "event": "sports",
-        "description": "The Red Sox-Orioles game has just gone into extra innings..",
+        "description": "The Red Sox-Orioles game has just gone into extra innings.",
         "url": "http:\/\/scores.espn.go.com\/nba\/boxscore?gameId=400278251",
         "importance": 3,
         "icon": "custom-icon-baseball",
