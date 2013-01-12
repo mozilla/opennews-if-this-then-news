@@ -8,7 +8,7 @@ $(function(){
         var itemsToLoad = 1 + Math.floor(Math.random() * 3);
         var b = beats.slice(first_load, first_load + itemsToLoad);
         $('#beat-tmpl').tmpl(b)
-                       .prependTo($beats);
+                       .hide().prependTo($beats).fadeIn();
 
         first_load += itemsToLoad;
 
@@ -35,7 +35,7 @@ $(function(){
         async: false
     });
 
-    $('#beat-tmpl').tmpl(beats.slice(0, first_load)).appendTo($beats);
+    $('#beat-tmpl').tmpl(beats.slice(0, first_load)).hide().appendTo($beats).fadeIn();
 
     $beats.isotope({
         itemSelector : '.item',
