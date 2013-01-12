@@ -18,10 +18,10 @@
 	border: none;
 	border-radius: 0 0 0 0;
 	color: #000;
-	padding-left: 34px;
-	padding-top: 3px;
+	padding-left: 48px;
+	padding-top: 6px;
 	background-repeat: no-repeat;
-	background-position: 3px 3px;
+	background-position: 6px 6px;
 }
 
 .custom-icon-bankruptcy {
@@ -40,6 +40,10 @@
 	background-image: url('../img/cold.png');
 }
 
+.custom-icon-crime {
+	background-image: url('../img/crime.png');
+}
+
 .custom-icon-death {
 	background-image: url('../img/death.png');
 }
@@ -54,6 +58,10 @@
 
 .custom-icon-football {
 	background-image: url('../img/football.png');
+}
+
+.custom-icon-heat {
+	background-image: url('../img/heat.png');
 }
 
 .custom-icon-hotspot {
