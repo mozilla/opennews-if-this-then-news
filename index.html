@@ -17,8 +17,8 @@
       }
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/theme.css" rel="stylesheet">
-    <link href="css/theme-responsive.css" rel="stylesheet">
+<!--     <link href="css/theme.css" rel="stylesheet">
+    <link href="css/theme-responsive.css" rel="stylesheet"> -->
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -37,24 +37,20 @@
       <div class="row-fluid">
         <div class="sidebar span2">
            <ul class="nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li class="dropdown">
-                <ul class="dropdownmenu">
+              <li>
+                <ul>
                   <li class="navheader">GOVERNMENT</li>
+          
                   <li><a href="#">Controversial laws</a></li>
-                  <li class="divider"></li>
                   <li class="navheader">BUSINESS</li>
                   <li><a href="#">Stock Market</a></li>
                   <li><a href="#">Bankruptcies</a></li>
-                  <li class="divider"></li>
                   <li class="navheader">SPORTS</li>
                   <li><a href="#">Nailbiter</a></li>
-                  <li class="divider"></li>
                   <li><a href="#">Strange Weather</a></li>
                   <li><a href="#">Box Office</a></li>
                 </ul>
               </li>
-              <li><a href="#about">About</a></li>
             </ul>
         </div>
 
@@ -78,7 +74,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>s
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/script.js"></script>
     <script id="beat-tmpl" type="text/x-jquery-tmpl">
@@ -90,11 +86,10 @@
 <!--         "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html", -->
 <!--         "timestamp": "2013-01-12T16:45:00Z" -->
 <!--     }, -->
-        <div class="well ${beat}">
+        <div class="well ${beat} ${event}">
           <h4>
             <a href="${url}" target="_blank">${description}</a>
           </h4>
-          <p>${description}</p>
         </div>
       </div>
     </script>
