@@ -1,73 +1,323 @@
-
 [
-    {
-        "beat": "local",
-        "event": "weather",
-        "description": "Boston's current temperature of 51&deg; F is higher than this day's previous record of 49&deg; F set on January 12, 1970.",
-        "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
-        "timestamp": "2013-01-12T16:45:00Z"
-    },
-    {
-        "beat": "local",
-        "event": "weather",
-        "description": "Boston's current temperature of 19&deg; F is near this day's previous record of 18&deg; F set on January 12, 1921.",
-        "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
-        "timestamp": "2013-01-12T16:45:00Z"
-    },
-    {
-        "beat": "local",
-        "event": "weather",
-        "description": "The temperature in Boston is expected to drop 11&deg; F in the next three days.",
-        "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
-        "timestamp": "2013-01-12T16:45:00Z"
-    },
-    {
-        "beat": "local",
-        "event": "weather",
-        "description": "The temperature in Boston is expected to rise 8&deg; F tomorrow.",
-        "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
-        "timestamp": "2013-01-12T16:45:00Z"
-    },
-    {
-        "beat": "local",
-        "event": "hotspot",
-        "description": "Yelp activity for Highland Kitchen has gone up 48% in the last month.",
-        "url": "http:\/\/www.yelp.com\/biz\/highland-kitchen-somerville",
-        "timestamp": "2013-01-12T16:45:00Z"
-    },
-    {
-        "beat": "local",
-        "event": "hotspot",
-        "description": "OpenTable activity for Hamersley's Bistro has gone up 71% in the last month.",
-        "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
-        "timestamp": "2013-01-12T16:45:00Z"
-    },
-    {
-        "beat": "local",
-        "event": "crime",
-        "description": "Crime in Boston has dropped 22% since 2012.",
-        "url": "http:\/\/www.cityofboston.gov\/police\/stats\/",
-        "timestamp": "2013-01-12T16:45:00Z"
-    },
-    {
-        "beat": "local",
-        "event": "crime",
-        "description": "Boston is on pace for 112 homicides in 2013, greater than the previous record of 88 in 1984.",
-        "url": "http:\/\/www.cityofboston.gov\/police\/stats\/",
-        "timestamp": "2013-01-12T16:45:00Z"
-    },
-    {
-        "beat": "local",
-        "event": "sports",
-        "description": "The Patriots-Titans game is tied 21-21 with 8:04 remaining.",
-        "url": "http:\/\/scores.espn.go.com\/nfl\/boxscore?gameId=320909010",
-        "timestamp": "2013-01-12T16:45:00Z"
-    },
-    {
-        "beat": "local",
-        "event": "sports",
-        "description": "The Celtics-Rockets game has just gone into overtime.",
-        "url": "http:\/\/scores.espn.go.com\/nba\/boxscore?gameId=400278251",
-        "timestamp": "2013-01-12T16:45:00Z"
-    }
+
+{
+
+"beat": "local",
+
+"event": "weather",
+
+"description": "Boston's current temperature of 51&deg; F is higher than this day's previous record of 49&deg; F set on January 12, 1970.",
+
+"url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
+
+"importance": 1,
+
+"timestamp": "2013-01-12T18:37:06-05:00"
+
+},
+
+{
+
+"beat": "local",
+
+"event": "weather",
+
+"description": "Boston's current temperature of 19&deg; F is near this day's previous record of 18&deg; F set on January 12, 1921.",
+
+"url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
+
+"importance": 1,
+
+"timestamp": "2013-01-12T22:34:53-05:00"
+
+},
+
+{
+
+"beat": "local",
+
+"event": "weather",
+
+"description": "The temperature in Boston is expected to drop 11&deg; F in the next three days.",
+
+"url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
+
+"importance": 1,
+
+"timestamp": "2013-01-12T23:57:27-05:00"
+
+},
+
+{
+
+"beat": "local",
+
+"event": "weather",
+
+"description": "The temperature in Boston is expected to rise 8&deg; F tomorrow.",
+
+"url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
+
+"importance": 1,
+
+"timestamp": "2013-01-12T21:54:25-05:00"
+
+},
+
+{
+
+"beat": "local",
+
+"event": "hotspot",
+
+"description": "Yelp activity for Highland Kitchen has gone up 48% in the last month.",
+
+"url": "http:\/\/www.yelp.com\/biz\/highland-kitchen-somerville",
+
+"importance": 1,
+
+"timestamp": "2013-01-12T20:04:59-05:00"
+
+},
+
+{
+
+"beat": "local",
+
+"event": "hotspot",
+
+"description": "OpenTable activity for Hamersley's Bistro has gone up 71% in the last month.",
+
+"url": "http:\/\/www.yelp.com\/biz\/highland-kitchen-somerville",
+
+"importance": 1,
+
+"timestamp": "2013-01-12T22:25:58-05:00"
+
+},
+
+{
+
+"beat": "local",
+
+"event": "crime",
+
+"description": "Crime in Boston has dropped 22% since 2012.",
+
+"url": "http:\/\/www.cityofboston.gov\/police\/stats\/",
+
+"importance": 1,
+
+"timestamp": "2013-01-12T23:30:11-05:00"
+
+},
+
+{
+
+"beat": "local",
+
+"event": "crime",
+
+"description": "Boston is on pace for 112 homicides in 2013, greater than the previous record of 88 in 1984.",
+
+"url": "http:\/\/www.cityofboston.gov\/police\/stats\/",
+
+"importance": 2,
+
+"timestamp": "2013-01-12T23:40:32-05:00"
+
+},
+
+{
+
+"beat": "local",
+
+"event": "sports",
+
+"description": "The Patriots-Titans game is tied 21-21 with 8:04 remaining.",
+
+"url": "http:\/\/scores.espn.go.com\/nfl\/boxscore?gameId=320909010",
+
+"importance": 1,
+
+"timestamp": "2013-01-12T23:55:29-05:00"
+
+},
+
+{
+
+"beat": "local",
+
+"event": "sports",
+
+"description": "The Celtics-Rockets game has just gone into overtime.",
+
+"url": "http:\/\/scores.espn.go.com\/nba\/boxscore?gameId=400278251",
+
+"importance": 3,
+
+"timestamp": "2013-01-12T22:48:54-05:00"
+
+},
+
+{
+
+"beat": "government",
+
+"event": "votes",
+
+"description": "The House of Representatives just passed H.R. 3421 (Medical Debt Relief Act) by a narrow 220-215 margin",
+
+"url": "http:\/\/www.govtrack.us\/congress\/bills\/111\/hr3421",
+
+"importance": 2,
+
+"timestamp": "2013-01-12T22:27:18-05:00"
+
+},
+
+{
+
+"beat": "government",
+
+"event": "votes",
+
+"description": "13 Senators just broke party ranks in the failed vote on S. 510 (FDA Food Safety Modernization Act).",
+
+"url": "http:\/\/www.govtrack.us\/congress\/bills\/111\/s510",
+
+"importance": 2,
+
+"timestamp": "2013-01-12T18:47:46-05:00"
+
+},
+
+{
+
+"beat": "government",
+
+"event": "money",
+
+"description": "Boeing was just awarded a $71 billion government contract for the procurement of C-17 transport planes.",
+
+"url": "http:\/\/www.govtrack.us\/congress\/bills\/111\/s510",
+
+"importance": 2,
+
+"timestamp": "2013-01-12T24:00:27-05:00"
+
+},
+
+{
+
+"beat": "government",
+
+"event": "money",
+
+"description": "Contran Corporation just donated $3 million to the American Crossroads SuperPAC.",
+
+"url": "http:\/\/www.govtrack.us\/congress\/bills\/111\/s510",
+
+"importance": 1,
+
+"timestamp": "2013-01-12T18:44:04-05:00"
+
+},
+
+{
+
+"beat": "breaking",
+
+"event": "death",
+
+"description": "Senator Daniel Inouye has passed away at the age of 88.",
+
+"url": "http:\/\/www.businessweek.com\/ap\/2012-12-18\/hawaiis-inouye-senator-and-war-hero-dies-at-88",
+
+"importance": 1,
+
+"timestamp": "2013-01-12T20:27:19-05:00"
+
+},
+
+{
+
+"beat": "breaking",
+
+"event": "disaster",
+
+"description": "A magnitude 6.9 earthquake has occurred off the coast of Oregon.",
+
+"url": "http:\/\/latimesblogs.latimes.com\/lanow\/2013\/01\/earthquake-33-quake-strikes-near-laytonville-bzsufc.html",
+
+"importance": 3,
+
+"timestamp": "2013-01-12T24:02:15-05:00"
+
+},
+
+{
+
+"beat": "breaking",
+
+"event": "arrest",
+
+"description": "Former Vice President Al Gore has been arrested for stealing a panda from the San Diego Zoo.",
+
+"url": "http:\/\/latimesblogs.latimes.com\/washington\/2011\/03\/al-gore-new-book.html",
+
+"importance": 2,
+
+"timestamp": "2013-01-12T23:49:08-05:00"
+
+},
+
+{
+
+"beat": "business",
+
+"event": "restructuring",
+
+"description": "Boeing and Airbus have announced a $140 billion merger.",
+
+"url": "http:\/\/www.businessweek.com\/ap\/2013-01-08\/news-summary-momentum-building-for-airline-merger",
+
+"importance": 2,
+
+"timestamp": "2013-01-12T21:44:25-05:00"
+
+},
+
+{
+
+"beat": "business",
+
+"event": "restructuring",
+
+"description": "Google has announced it will file for bankruptcy.",
+
+"url": "http:\/\/www.businessweek.com\/ap\/2013-01-09\/google-invests-200-million-in-texas-wind-farm",
+
+"importance": 2,
+
+"timestamp": "2013-01-12T18:38:15-05:00"
+
+},
+
+{
+
+"beat": "business",
+
+"event": "earnings",
+
+"description": "Microsoft has announced Q3 earnings that exceeded analyst expectations by 14%",
+
+"url": "http:\/\/www.businessweek.com\/videos\/2013-01-08\/microsoft-60m-windows-8-licenses-sold-since-oct-dot",
+
+"importance": 2,
+
+"timestamp": "2013-01-12T24:42:40-05:00"
+
+}
+
 ]

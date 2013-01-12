@@ -1,0 +1,22 @@
+
+.local {
+	background-color: #EDC92D;
+}
+
+.business {
+	background-color: #2458A3;
+}
+
+.breaking {
+	background-color: #CA221D;
+}
+
+.government {
+	background-color: #44913D;
+}
+
+.item .well {
+	border: none;
+	border-radius: 0 0 0 0;
+	color: #000;
+}
