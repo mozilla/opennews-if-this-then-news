@@ -6,7 +6,7 @@
         "description": "Boston's current temperature of 51&deg; F is higher than this day's previous record of 49&deg; F set on January 12, 1970.",
         "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
         "importance": 1,
-        "icon": "heat.png",
+        "class": "icon-heat",
         "timestamp": "2013-01-12T24:11:20-05:00"
     },
     {
@@ -15,7 +15,7 @@
         "description": "Boston's current temperature of 19&deg; F is near this day's previous record low of 18&deg; F set on January 12, 1921.",
         "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
         "importance": 1,
-        "icon": "cold.png",
+        "class": "icon-cold",
         "timestamp": "2013-01-12T18:52:18-05:00"
     },
     {
@@ -24,7 +24,7 @@
         "description": "The temperature in Boston is expected to drop 11&deg; F in the next three days.",
         "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
         "importance": 1,
-        "icon": "cold.png",
+        "class": "icon-cold",
         "timestamp": "2013-01-12T23:42:39-05:00"
     },
     {
@@ -33,7 +33,7 @@
         "description": "The temperature in Boston is expected to rise 8&deg; F tomorrow.",
         "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html",
         "importance": 1,
-        "icon": "heat.png",
+        "class": "icon-heat",
         "timestamp": "2013-01-12T18:33:08-05:00"
     },
     {
@@ -42,7 +42,7 @@
         "description": "Yelp activity for Highland Kitchen has gone up 48% in the last month.",
         "url": "http:\/\/www.yelp.com\/biz\/highland-kitchen-somerville",
         "importance": 1,
-        "icon": "hotspot.png",
+        "class": "icon-hotspot",
         "timestamp": "2013-01-12T20:35:19-05:00"
     },
     {
@@ -51,7 +51,7 @@
         "description": "OpenTable activity for Hamersley's Bistro has gone up 71% in the last month.",
         "url": "http:\/\/www.yelp.com\/biz\/highland-kitchen-somerville",
         "importance": 1,
-        "icon": "hotspot.png",
+        "class": "icon-hotspot",
         "timestamp": "2013-01-12T20:38:40-05:00"
     },
     {
@@ -60,7 +60,7 @@
         "description": "Crime in Boston has dropped 22% since 2012.",
         "url": "http:\/\/www.cityofboston.gov\/police\/stats\/",
         "importance": 1,
-        "icon": "crime.png",
+        "class": "icon-crime",
         "timestamp": "2013-01-12T21:46:32-05:00"
     },
     {
@@ -69,7 +69,7 @@
         "description": "Boston is on pace for 112 homicides in 2013, greater than the previous record of 88 in 1984.",
         "url": "http:\/\/www.cityofboston.gov\/police\/stats\/",
         "importance": 2,
-        "icon": "crime.png",
+        "class": "icon-crime",
         "timestamp": "2013-01-12T21:53:21-05:00"
     },
     {
@@ -78,7 +78,7 @@
         "description": "The Patriots-Titans game is tied 21-21 with 8:04 remaining.",
         "url": "http:\/\/scores.espn.go.com\/nfl\/boxscore?gameId=320909010",
         "importance": 1,
-        "icon": "football.png",
+        "class": "icon-football",
         "timestamp": "2013-01-12T22:52:52-05:00"
     },
     {
@@ -87,7 +87,7 @@
         "description": "The Red Sox-Orioles game has just gone into extra innings..",
         "url": "http:\/\/scores.espn.go.com\/nba\/boxscore?gameId=400278251",
         "importance": 3,
-        "icon": "baseball.png",
+        "class": "icon-baseball",
         "timestamp": "2013-01-12T22:05:55-05:00"
     },
     {
@@ -96,7 +96,7 @@
         "description": "The House of Representatives just passed H.R. 3421 (Medical Debt Relief Act) by a narrow 220-215 margin",
         "url": "http:\/\/www.govtrack.us\/congress\/bills\/111\/hr3421",
         "importance": 2,
-        "icon": "law.png",
+        "class": "icon-law",
         "timestamp": "2013-01-12T19:30:26-05:00"
     },
     {
@@ -105,7 +105,7 @@
         "description": "13 Senators just broke party ranks in the failed vote on S. 510 (FDA Food Safety Modernization Act).",
         "url": "http:\/\/www.govtrack.us\/congress\/bills\/111\/s510",
         "importance": 2,
-        "icon": "law.png",
+        "class": "icon-law",
         "timestamp": "2013-01-12T20:28:28-05:00"
     },
     {
@@ -114,7 +114,7 @@
         "description": "Boeing was just awarded a $71 billion government contract for the procurement of C-17 transport planes.",
         "url": "http:\/\/www.govtrack.us\/congress\/bills\/111\/s510",
         "importance": 2,
-        "icon": "money.png",
+        "class": "icon-money",
         "timestamp": "2013-01-12T23:28:15-05:00"
     },
     {
@@ -123,7 +123,7 @@
         "description": "Contran Corporation just donated $3 million to the American Crossroads SuperPAC.",
         "url": "http:\/\/www.govtrack.us\/congress\/bills\/111\/s510",
         "importance": 1,
-        "icon": "money.png",
+        "class": "icon-money",
         "timestamp": "2013-01-12T21:45:55-05:00"
     },
     {
@@ -132,7 +132,7 @@
         "description": "Senator Daniel Inouye has passed away at the age of 88.",
         "url": "http:\/\/www.businessweek.com\/ap\/2012-12-18\/hawaiis-inouye-senator-and-war-hero-dies-at-88",
         "importance": 1,
-        "icon": "death.png",
+        "class": "icon-death",
         "timestamp": "2013-01-12T18:03:24-05:00"
     },
     {
@@ -141,7 +141,7 @@
         "description": "A magnitude 6.9 earthquake has occurred off the coast of Oregon.",
         "url": "http:\/\/latimesblogs.latimes.com\/lanow\/2013\/01\/earthquake-33-quake-strikes-near-laytonville-bzsufc.html",
         "importance": 3,
-        "icon": "disaster.png",
+        "class": "icon-disaster",
         "timestamp": "2013-01-12T24:35:06-05:00"
     },
     {
@@ -150,7 +150,7 @@
         "description": "Former Vice President Al Gore has been arrested for stealing a panda from the San Diego Zoo.",
         "url": "http:\/\/latimesblogs.latimes.com\/washington\/2011\/03\/al-gore-new-book.html",
         "importance": 2,
-        "icon": "crime.png",
+        "class": "icon-crime",
         "timestamp": "2013-01-12T20:16:17-05:00"
     },
     {
@@ -159,7 +159,7 @@
         "description": "Boeing and Airbus have announced a $140 billion merger.",
         "url": "http:\/\/www.businessweek.com\/ap\/2013-01-08\/news-summary-momentum-building-for-airline-merger",
         "importance": 2,
-        "icon": "merger.png",
+        "class": "icon-merger",
         "timestamp": "2013-01-12T18:39:07-05:00"
     },
     {
@@ -168,7 +168,7 @@
         "description": "Google has announced it will file for bankruptcy.",
         "url": "http:\/\/www.businessweek.com\/ap\/2013-01-09\/google-invests-200-million-in-texas-wind-farm",
         "importance": 2,
-        "icon": "bankruptcy.png",
+        "class": "icon-bankruptcy",
         "timestamp": "2013-01-12T24:06:57-05:00"
     },
     {
@@ -177,7 +177,7 @@
         "description": "Microsoft has announced Q3 earnings that exceeded analyst expectations by 14%",
         "url": "http:\/\/www.businessweek.com\/videos\/2013-01-08\/microsoft-60m-windows-8-licenses-sold-since-oct-dot",
         "importance": 2,
-        "icon": "earnings.png",
+        "class": "icon-earnings",
         "timestamp": "2013-01-12T19:01:28-05:00"
     }
 ]

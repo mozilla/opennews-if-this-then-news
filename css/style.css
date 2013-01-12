@@ -1,4 +1,3 @@
-
 .local {
 	background-color: #EDC92D;
 }
@@ -19,4 +18,56 @@
 	border: none;
 	border-radius: 0 0 0 0;
 	color: #000;
+	padding-left: 34px;
+	padding-top: 3px;
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+}
+
+.icon-bankruptcy {
+	background-image: url('../images/bankruptcy.png');
+}
+
+.icon-baseball {
+	background-image: url('../images/baseball.png');
+}
+
+.icon-bell {
+	background-image: url('../images/bell.png');
+}
+
+.icon-cold {
+	background-image: url('../images/cold.png');
+}
+
+.icon-death {
+	background-image: url('../images/death.png');
+}
+
+.icon-disaster {
+	background-image: url('../images/disaster.png');
+}
+
+.icon-earnings {
+	background-image: url('../images/earnings.png');
+}
+
+.icon-football {
+	background-image: url('../images/football.png');
+}
+
+.icon-hotspot {
+	background-image: url('../images/hotspot.png');
+}
+
+.icon-law {
+	background-image: url('../images/law.png');
+}
+
+.icon-merger {
+	background-image: url('../images/merger.png');
+}
+
+.icon-money {	
+	background-image: url('../images/money.png');
 }
