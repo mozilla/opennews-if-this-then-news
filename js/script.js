@@ -15,6 +15,16 @@ $(function(){
         async: false
     });
 
+    $('#beat-tmpl').tmpl(beats).appendTo($beats);
+
+    $beats.isotope({
+        itemSelector:'.item',
+        layoutMode:'masonry'
+    });
+
+
+
+
     var types = [];
     $.ajax({
         type: 'GET',
@@ -28,11 +38,7 @@ $(function(){
         data: {},
         async: false
     });
-
-    $('#beat-tmpl').tmpl(beats).appendTo($beats);
-    $beats.isotope({
-        itemSelector:'.item',
-        layoutMode:'masonry'
-    });
+    $menu = $('#type-menu');
+    $('#menu-tmpl').tmpl({types: types}).appendTo($menu);
 
 });

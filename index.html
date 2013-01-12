@@ -31,7 +31,7 @@
       <!-- Example row of columns -->
       <div class="row-fluid">
         <div class="sidebar span2">
-          <ul class="type-menu">
+          <ul id="type-menu">
           </ul>
         </div>
 
@@ -76,12 +76,12 @@
     </script>
 
     <script id="menu-tmpl" type="text/x-query-tmpl">
-      {{each(n, beat) beats}}
-        <li class="beat" data-beat="${beat.beat}">
-          ${beat.name}
+      {{each types}}
+        <li class="beat" data-beat="${$value.beat}">
+          ${$value.name}
           <ul>
-            {{each(i, trigger) beat.triggers}}
-              <li class="trigger" data-trigger="${trigger.name}">${trigger.description}</li>
+            {{each $value.triggers}}
+              <li class="trigger" data-trigger="${$value.name}">${$value.description}</li>
             {{/each}}
           </ul>
           </li>
