@@ -12,8 +12,8 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/theme.css" rel="stylesheet">
-    <link href="css/theme-responsive.css" rel="stylesheet">
+<!--     <link href="css/theme.css" rel="stylesheet">
+    <link href="css/theme-responsive.css" rel="stylesheet"> -->
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -35,7 +35,7 @@
           </ul>
         </div>
 
-        <div id="beats" class="isotope span10" style="border: 1px solid red">
+        <div id="beats" class="isotope span10">
           <!-- Posts will go here ... -->
         </div>
       </div>
@@ -55,7 +55,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>s
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/script.js"></script>
     <script id="beat-tmpl" type="text/x-jquery-tmpl">
@@ -67,11 +67,10 @@
 <!--         "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html", -->
 <!--         "timestamp": "2013-01-12T16:45:00Z" -->
 <!--     }, -->
-        <div class="well ${beat}">
+        <div class="well ${beat} ${event}">
           <h4>
             <a href="${url}" target="_blank">${description}</a>
           </h4>
-          <p>${description}</p>
         </div>
       </div>
     </script>

@@ -4,7 +4,7 @@ $(function(){
     var beats = [];
     $.ajax({
         type: 'GET',
-        url: '/data/data.json',
+        url: '../data/data.json',
         dataType: 'json',
         success: function(data) {
             $.each(data, function(i, beat) {
@@ -18,7 +18,7 @@ $(function(){
     var types = [];
     $.ajax({
         type: 'GET',
-        url: '/data/beats.json',
+        url: '../data/beats.json',
         dataType: 'json',
         success: function(data) {
             $.each(data, function(i, type) {
