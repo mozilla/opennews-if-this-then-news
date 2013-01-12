@@ -44,8 +44,6 @@
         <p><a href="http://twitter.com/pudo">Friedrich Lindenberg</a>, <a href="http://twitter.com/annabelchurch">Annabel Church</a>, <a href="http://twitter.com/sonya2song">Sonya Song</a>, <a href="http://twitter.com/manuelaristaran">Manuel Aristarán</a>, <a href="http://twitter.com/veltman">Noah Veltman (<a href="http://www.mozillaopennews.org/">Knight-Mozilla OpenNews</a>)</p>
       </footer>
 
-
-
     </div> <!-- /container -->
 
     <!-- Le javascript
@@ -58,10 +56,11 @@
     <script src="js/script.js"></script>
     <script id="beat-tmpl" type="text/x-jquery-tmpl">
       <div id="${id}" class="post item span4">
-        <div class="well ${beat} ${icon}">
+        <div class="well ${beat} importance-${importance} ${icon}">
           <h4>
             <a href="${url}" target="_blank">${description}</a>
           </h4>
+
         </div>
       </div>
     </script>

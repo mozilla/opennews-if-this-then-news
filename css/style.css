@@ -1,12 +1,13 @@
 .item h4 a {
   color: #fafafa;
+
 }
 
-.local {
+/*.local {
 	background-color: #EDC92D;
 }
 
-.business {
+.business, .importance-2 {
 	background-color: #2458A3;
 }
 
@@ -16,7 +17,23 @@
 
 .government {
 	background-color: #44913D;
+}*/
+
+.importance-1 {
+	background-color: #EDC92D;
 }
+
+.importance-2 {
+	background-color: #E29826;
+}
+.importance-3 {
+	background-color: #CD531C;
+}
+.importance-4 {
+	background-color: #CA221D;
+}
+
+
 
 .item .well {
 	border: none;
