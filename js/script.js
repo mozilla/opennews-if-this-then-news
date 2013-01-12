@@ -40,7 +40,7 @@ $(function(){
         dataType: 'json',
         success: function(data) {
             data_size = data.length;
-            $.each(data, function(i, beat) {
+            $.each(data.shuffle(), function(i, beat) {
                 beats.push(beat);
             });
         },
