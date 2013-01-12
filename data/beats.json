@@ -1,0 +1,89 @@
+{
+    "local": {
+        "beat": "local",
+        "name": "Local",
+        "description": "Local news for Boston.",
+        "icon": "local.png",
+        "triggers": [
+            {
+                "name": "hotspot",
+                "description": "Local restaurants and shops receiving a sudden increase of attention.",
+                "icon": "hotspot.png"
+            },
+            {
+                "name": "crime",
+                "description": "Large changes in local crime rates.",
+                "icon": "crime.png"
+            },
+            {
+                "name": "weather",
+                "description": "Unusual local weather.",
+                "icon": "weather.png"
+            },
+            {
+                "name": "sports",
+                "description": "A local sports team is currently playing in a nailbiter.",
+                "icon": "sports.png"
+            }
+        ]
+    },
+    "breaking": {
+        "beat": "breaking",
+        "name": "Breaking",
+        "description": "Breaking news.",
+        "icon": "breaking.png",
+        "triggers": [
+            {
+                "name": "disaster",
+                "description": "Natural disasters and similar events.",
+                "icon": "disaster.png"
+            },
+            {
+                "name": "death",
+                "description": "Notable deaths.",
+                "icon": "death.png"
+            },
+            {
+                "name": "arrest",
+                "description": "Notable arrests.",
+                "icon": "arrest.png"
+            }
+        ]
+    },
+    "business": {
+        "beat": "business",
+        "name": "Business",
+        "description": "Business and economic events.",
+        "icon": "business.png",
+        "triggers": [
+            {
+                "name": "restructuring",
+                "description": "Bankruptcies, mergers, and public offerings.",
+                "icon": "restructuring.png"
+            },
+            {
+                "name": "earnings",
+                "description": "Unexpected corporate earnings results.",
+                "icon": "earnings.png"
+            }
+        ]
+    },
+    "government": {
+        "beat": "government",
+        "name": "Government",
+        "description": "Important events in government.",
+        "icon": "government.png",
+        "triggers": [
+            {
+                "name": "vote",
+                "description": "Controversial votes in Congress.",
+                "icon": "vote.png"
+            },
+            {
+                "name": "money",
+                "description": "Large movements of money in government.",
+                "icon": "money.png"
+            }
+        ]
+    }
+}
