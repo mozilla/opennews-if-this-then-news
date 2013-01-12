@@ -28,30 +28,11 @@
     </div>
 
     <div class="container">
-      
       <!-- Example row of columns -->
       <div class="row-fluid">
         <div class="sidebar span2">
-           <ul class="nav">
-
-              <li class="active"><a href="index.html">Home</a></li>
-              <li class="dropdown">
-                <ul class="dropdownmenu">
-                  <li class="navheader">Government</li>
-                  <li><a href="#">Controversial laws</a></li>
-                  <li class="divider"></li>
-                  <li class="navheader">Business</li>
-                  <li><a href="#">Stock Market</a></li>
-                  <li><a href="#">Bankruptcies</a></li>
-                  <li class="divider"></li>
-                  <li class="navheader">Sports</li>
-
-                  <li><a href="#">Nailbiter</a></li>
-                  <li><a href="#">Strange Weather</a></li>
-                  <li><a href="#">Box Office</a></li>
-                </ul>
-              </li>
-            </ul>
+          <ul class="type-menu">
+          </ul>
         </div>
 
         <div id="beats" class="isotope span10">
@@ -94,5 +75,17 @@
       </div>
     </script>
 
+    <script id="menu-tmpl" type="text/x-query-tmpl">
+      {{each(n, beat) beats}}
+        <li class="beat" data-beat="${beat.beat}">
+          ${beat.name}
+          <ul>
+            {{each(i, trigger) beat.triggers}}
+              <li class="trigger" data-trigger="${trigger.name}">${trigger.description}</li>
+            {{/each}}
+          </ul>
+          </li>
+       {{/each}}
+    </script>
   </body>
 </html>
