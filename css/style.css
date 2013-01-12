@@ -15,8 +15,35 @@
 	background-color: #44913D;
 }
 
+.item:hover {
+	opacity: 0.7;
+}
+
 .item .well {
 	border: none;
 	border-radius: 0 0 0 0;
 	color: #000;
+}
+
+h1 {
+	color: black;
+	text-align: right;
+	margin-bottom: 0.5em;
+	margin-right: 1em;
+}
+
+a {
+	color: black;
+	overflow: hidden;
+	display: inline-block;
+}
+
+a:hover { 
+	text-decoration: none;
+	color: black;
+}
+
+h4{
+	border-bottom: 1px solid;
+	margin-bottom: 0.5em;
 }

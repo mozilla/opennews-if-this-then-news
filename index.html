@@ -17,7 +17,8 @@
       }
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
-
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/theme-responsive.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,15 +26,39 @@
   </head>
 
   <body>
+    <div class="page-header">
+      <h1><a class="brand" href="index.html">if (this) then news;</a></h1>
+    </div>
+    
 
     <div class="container">
-      <h1><a class="brand" href="index.html">if (this) then news;</a></h1>
-
+      
       <!-- Example row of columns -->
-      <div class="row">
-        <div class="sidebar"></div>
+      <div class="row-fluid">
+        <div class="sidebar span2">
+           <ul class="nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <ul class="dropdownmenu">
+                  <li class="navheader">GOVERNMENT</li>
+                  <li><a href="#">Controversial laws</a></li>
+                  <li class="divider"></li>
+                  <li class="navheader">BUSINESS</li>
+                  <li><a href="#">Stock Market</a></li>
+                  <li><a href="#">Bankruptcies</a></li>
+                  <li class="divider"></li>
+                  <li class="navheader">SPORTS</li>
+                  <li><a href="#">Nailbiter</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Strange Weather</a></li>
+                  <li><a href="#">Box Office</a></li>
+                </ul>
+              </li>
+              <li><a href="#about">About</a></li>
+            </ul>
+        </div>
 
-        <div id="beats" class="isotope row">
+        <div id="beats" class="isotope span10" style="border: 1px solid red">
           <!-- Posts will go here ... -->
         </div>
       </div>
@@ -57,7 +82,7 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/script.js"></script>
     <script id="beat-tmpl" type="text/x-jquery-tmpl">
-      <div id="${id}" class="post item span4">
+      <div id="${id}" class="post item span${importance*3}">
 <!-- { -->
 <!--         "beat": "local", -->
 <!--         "event": "weather", -->
@@ -69,6 +94,7 @@
           <h4>
             <a href="${url}" target="_blank">${description}</a>
           </h4>
+          <p>${description}</p>
         </div>
       </div>
     </script>
