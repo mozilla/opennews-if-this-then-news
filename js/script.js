@@ -1,12 +1,27 @@
+Array.prototype.shuffle = function() {
+    var i = this.length, j, tempi, tempj;
+    if ( i == 0 ) return false;
+    while ( --i ) {
+        j       = Math.floor( Math.random() * ( i + 1 ) );
+        tempi   = this[i];
+        tempj   = this[j];
+        this[i] = tempj;
+        this[j] = tempi;
+    }
+    return this;
+};
+
+
 $(function(){
 
     $beats = $('#beats');
     var beats = [], data_size, first_load = 6, interval;
-    var LOAD_INTERVAL = 2 * 1000;
+    var LOAD_INTERVAL = 10 * 1000;
 
     var fakeAddItems = function() {
         var itemsToLoad = 1 + Math.floor(Math.random() * 3);
         var b = beats.slice(first_load, first_load + itemsToLoad);
+        console.log(b);
         $('#beat-tmpl').tmpl(b)
                        .hide().prependTo($beats).fadeIn();
 
@@ -26,8 +41,6 @@ $(function(){
         success: function(data) {
             data_size = data.length;
             $.each(data, function(i, beat) {
-                // delete this
-                beat.importance = 1 + Math.floor(Math.random()*3)
                 beats.push(beat);
             });
         },
@@ -42,7 +55,7 @@ $(function(){
         layoutMode: 'masonry'
     });
 
-    window.setInterval(fakeAddItems, LOAD_INTERVAL);
+    interval = window.setInterval(fakeAddItems, LOAD_INTERVAL);
 
 
 
