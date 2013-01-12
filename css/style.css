@@ -1,4 +1,14 @@
 
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: none;
+}
+
+div.page-header {
+  border-bottom: none;
+}
+
 .local {
 	background-color: #EDC92D;
 }
@@ -22,27 +32,32 @@
 .item .well {
 	border: none;
 	border-radius: 0 0 0 0;
-	color: #000;
+	color: #fff;
 }
 
 h1 {
-	color: black;
 	text-align: right;
 	margin-bottom: 0.5em;
 	margin-right: 1em;
 }
 
 a {
-	color: black;
+  color: #333;
 	overflow: hidden;
 	display: inline-block;
 }
 
 a:hover { 
 	text-decoration: none;
-	color: black;
+	color: #333;
 }
 
-h4{
-	margin-bottom: 0.5em;
+.post h4{
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+.post h4 a {
+  color: #fff !important;
 }

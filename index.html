@@ -8,14 +8,9 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <!--     <link href="css/theme.css" rel="stylesheet">
     <link href="css/theme-responsive.css" rel="stylesheet"> -->
@@ -26,10 +21,11 @@
   </head>
 
   <body>
-    <div class="page-header">
-      <h1><a class="brand" href="index.html">if (this) then news;</a></h1>
+    <div class="container">
+      <div class="page-header">
+        <h1><a class="brand" href="index.html">if (this) then news;</a></h1>
+      </div>
     </div>
-    
 
     <div class="container">
       
@@ -37,15 +33,19 @@
       <div class="row-fluid">
         <div class="sidebar span2">
            <ul class="nav">
-              <li>
-                <ul>
-                  <li class="navheader">GOVERNMENT</li>
-          
+
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <ul class="dropdownmenu">
+                  <li class="navheader">Government</li>
                   <li><a href="#">Controversial laws</a></li>
-                  <li class="navheader">BUSINESS</li>
+                  <li class="divider"></li>
+                  <li class="navheader">Business</li>
                   <li><a href="#">Stock Market</a></li>
                   <li><a href="#">Bankruptcies</a></li>
-                  <li class="navheader">SPORTS</li>
+                  <li class="divider"></li>
+                  <li class="navheader">Sports</li>
+
                   <li><a href="#">Nailbiter</a></li>
                   <li><a href="#">Strange Weather</a></li>
                   <li><a href="#">Box Office</a></li>
