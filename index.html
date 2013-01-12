@@ -53,19 +53,12 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <script src="js/jquery.tmpl.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/script.js"></script>class
+    <script src="js/script.js"></script>
     <script id="beat-tmpl" type="text/x-jquery-tmpl">
       <div id="${id}" class="post item span4">
-<!-- { -->
-<!--         "beat": "local", -->
-<!--         "event": "weather", -->
-<!--         "description": "Boston's current temperature of 51&deg; F is higher than this day's previous record of 49&deg; F set on January 12, 1970.", -->
-<!--         "url": "http:\/\/www.wunderground.com\/weather-forecast\/US\/MA\/Boston.html", -->
-<!--         "timestamp": "2013-01-12T16:45:00Z" -->
-<!--     }, -->
-        <div class="well ${beat}">
+        <div class="well ${beat} ${icon}">
           <h4>
             <a href="${url}" target="_blank">${description}</a>
           </h4>
